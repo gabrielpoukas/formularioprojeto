@@ -153,11 +153,61 @@ border: none;
 margin-top: 14px;
 color: white;
 cursor: pointer;
+font-size: 15px;
+
+
+}
+
+footer{
+
+
+background-image: linear-gradient(to right, rgb(142, 142, 240), rgba(255, 0, 0, 0.685) );
+position: fixed;
+bottom: 0;
+width: 100%;
+text-align: center;
+padding: 10px 20px 10px 30px;
+color: white;
+font-weight: bold;
+font-size: 20px;
 
 
 }
 
 
+@media (max-width: 930px) {
+
+.imgbox {
+
+
+    display: none;
+}
+
+.box {
+
+width: 700px;
+
+
+}
+.formulario {
+
+width: 100%;
+border-radius: 20px;
+
+}
+}
+
+@media (max-width: 500px){
+
+.w50{
+
+width: 100%;
+padding: 0;
+
+}
+
+
+}
 
 
 
