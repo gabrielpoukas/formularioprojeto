@@ -89,8 +89,11 @@ border-radius:  0px 15px 0px 15px;
 }
 .formulario h2 {
 
-font-size: 30px;
+font-size: 25px;
 font-family: var(--titulo);
+font-weight: bold;
+text-align: center;
+color: #ff008a;
 
 }
 
